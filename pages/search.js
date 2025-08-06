@@ -70,11 +70,10 @@ export default function AdvancedSearch() {
               {...register("geoLocation")}
             />
             <Form.Text className="text-muted">
-              Case sensitive location search for an artist, or nationality. Eg.
-              "Metropolitan Museum of Art", "Paris", "China", "New York", etc.
+              {'Case sensitive location search for an artist, or nationality. Eg. "Metropolitan Museum of Art", "Paris", "China", "New York", etc.'}
             </Form.Text>
           </Form.Group>
-        </Col>
+        </col>
         <Col md={4}>
           <Form.Group className="mb-3">
             <Form.Label>Medium</Form.Label>
@@ -85,8 +84,7 @@ export default function AdvancedSearch() {
               {...register("medium")}
             />
             <Form.Text className="text-muted">
-              Case sensitive medium search. Eg. "Ceramics", "Furniture",
-              "Paintings", "Sculpture", "Textiles", etc.
+              {'Case sensitive medium search. Eg. "Ceramics", "Furniture", "Paintings", "Sculpture", "Textiles", etc.'}
             </Form.Text>
           </Form.Group>
         </Col>

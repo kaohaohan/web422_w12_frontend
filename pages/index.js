@@ -29,7 +29,7 @@ export default function Home() {
         <Col lg={6}>
           <p>
             The Metropolitan Museum of Art of New York City, colloquially
-            &quot;the Met&quot;, is the largest art museum in the Americas. Its
+            {' "the Met"'}, is the largest art museum in the Americas. Its
             permanent collection contains over two million works, divided among
             17 curatorial departments. The main building at 1000 Fifth Avenue,
             along the Museum Mile on the eastern edge of Central Park on
@@ -41,7 +41,7 @@ export default function Home() {
           <br />
           <p>
             The Metropolitan Museum of Art was founded in 1870 with its mission
-            to bring art and art education to the American people. The museum's
+            to bring art and art education to the American people. {"The museum's"}
             permanent collection consists of works of art from classical
             antiquity and ancient Egypt, paintings, and sculptures from nearly
             all the European masters, and an extensive collection of American
