@@ -41,7 +41,8 @@ export default function Home() {
           <br />
           <p>
             The Metropolitan Museum of Art was founded in 1870 with its mission
-            to bring art and art education to the American people. {"The museum's"}
+            to bring art and art education to the American people.{" "}
+            {"The museum's"}
             permanent collection consists of works of art from classical
             antiquity and ancient Egypt, paintings, and sculptures from nearly
             all the European masters, and an extensive collection of American
@@ -73,3 +74,5 @@ export default function Home() {
     </>
   );
 }
+
+// Adding a comment to force a new commit
